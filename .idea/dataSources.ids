@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - frituurfrida@localhost" uuid="c4f0d123-f37e-482b-8285-b6fa6652f73b">
+    <database-info product="MySQL" version="5.6.24-log" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
+    <schema name="" catalog="frituurfrida"/>
+    <table name="ingredients" schema="" catalog="frituurfrida" type="TABLE"/>
+    <table name="saucerecipes" schema="" catalog="frituurfrida" type="TABLE"/>
+    <table name="sauces" schema="" catalog="frituurfrida" type="TABLE"/>
+  </data-source>
+</component>

@@ -1,0 +1,82 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 25-Jun-2015, 09:33:58
+    Author     : guillaume.vandecasteele
+*/
+
+@CHARSET "utf-8";
+
+/* NORMALIZE */
+
+html, header, hr, footer, ul, li, a, body, div, section, article, aside, nav {
+    margin:0;
+    padding:0;
+}
+img {
+    border:none;
+    float:left;
+    margin: 0 1.25em 0.5em 0;
+}
+table{
+    border-collapse:collapse;
+    border-spacing: 0;
+    empty-cells:hide;
+}
+
+/* OPMAAK */
+
+body {
+	background-color: #5888AC;
+	color: #053355;
+}
+
+header {
+    background-color: #DA2020;
+    color: white;
+    width: 100%;
+}
+
+.content {
+    max-width: 1600px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.topmenu {
+    text-align: center;
+}
+
+.topmenu ul li {
+    display:inline;
+    max-width: 90%;
+}
+
+.topmenu ul li a {
+    display: inline-block;
+    font-size: 100%;
+    color:white;
+    text-decoration: none;
+    padding: 1.2em 2% 1.2em 2%;
+    border-left: 1px white solid;
+}
+
+.topmenu ul li:last-of-type a {
+    border-right: 1px white solid;
+}
+
+.topmenu ul li a:hover, a:active, a.actief {
+    background-color: #850000;
+    text-decoration: none;
+}
+
+.zebra li {
+    margin: 5em;
+}
+
+.stats li {
+    list-style-type: circle;
+}
