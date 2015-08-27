@@ -5,7 +5,8 @@
 <%@ attribute name="title" required="true" type="java.lang.String" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
-<fmt:message key="${param.title}" var="suffix"/>
+<fmt:setBundle basename="resourceBundles.text"/>
+<fmt:message key="${title}" var="suffix"/>
 <fmt:message key="headTitle" var="titleContent">
     <fmt:param value="${suffix}"/>
 </fmt:message>

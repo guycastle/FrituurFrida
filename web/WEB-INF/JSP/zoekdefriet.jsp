@@ -1,5 +1,6 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+<%@ taglib prefix="vdab" uri="http://vdab.be/tags" %>
 <%--
     Created by guillaume.vandecasteele on 17/08/2015 at 14:57.
  --%>
@@ -7,16 +8,10 @@
 <fmt:setBundle basename="resourceBundles.text"/>
 <html>
     <head>
-        <fmt:message key="findTheFry" var="suffix"/>
-        <fmt:message key="headTitle" var="titleContent">
-            <fmt:param value="${suffix}"/>
-        </fmt:message>
-        <c:import url="/WEB-INF/JSP/head.jsp">
-            <c:param name='title' value='${titleContent}'/>
-        </c:import>
+        <vdab:head title="findTheFry"/>
     </head>
     <body>
-        <c:import url="/WEB-INF/JSP/menu.jsp"/>
+        <vdab:menu/>
         <div class="content">
             <h1><fmt:message key="findTheFry"/></h1>
             <br>
